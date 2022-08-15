@@ -1,8 +1,8 @@
-
+import {Navbar} from "./components/index"
 function App() {
   return (
-    <div className="App">
-    hello
+    <div>
+    <Navbar />
     </div>
   );
 }
