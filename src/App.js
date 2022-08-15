@@ -1,9 +1,11 @@
-import {Navbar,Hero} from "./components/index"
+import {Navbar,Hero,HeadLineCard,Food} from "./components/index"
 function App() {
   return (
-    <div>
+    <div className="">
     <Navbar />
     <Hero />
+    <HeadLineCard />
+    <Food />
     </div>
   );
 }
