@@ -1,4 +1,4 @@
-import {Navbar,Hero,HeadLineCard,Food} from "./components/index"
+import {Navbar,Hero,HeadLineCard,Food,Category} from "./components/index"
 function App() {
   return (
     <div className="">
@@ -6,6 +6,7 @@ function App() {
     <Hero />
     <HeadLineCard />
     <Food />
+    <Category />
     </div>
   );
 }
